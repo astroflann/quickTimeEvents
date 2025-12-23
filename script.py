@@ -22,11 +22,6 @@ clear()
 def main():
     running = True
     while running:
-        global counter
-        global neededToWin
-        global failure
-        global error
-
         key = random.choice(keys)
        
         print(Fore.RED + key)
@@ -72,3 +67,4 @@ def main():
 main()
             
             
+
